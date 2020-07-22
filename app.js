@@ -205,8 +205,62 @@
 
 // *********Chapter 43-48*******     Assignment 9 *****   Task 3
 
-var task3 = document.getElementById(task3);
-var p = document.createElement("p");
+// var list = document.getElementById("list");
+// list.innerHTML = "Hello 10";
+// list.innerHTML = "Hello 10";
+
+//Not understand how wo solve
 
 // *********Chapter 43-48*******     Assignment 9 *****   Task 4
+
+// // on index.html
+
 // *********Chapter 43-48*******     Assignment 9 *****   Task 5
+
+// 1st error no same name i.e   counter=document....getid(counter) is wrong X
+// 2nd variable counter shoud be zero
+
+// var counter = 0; //it must be different than element by ID
+// var counterhead = document.getElementById("counter");
+// function counterStart() {
+//   counter++;
+//   counterhead.innerHTML = counter;
+//   // console.log("counter");
+// }
+// function start() {
+//   interval = setInterval(counterStart, 1000);
+// }
+// function stop() {
+//   clearInterval(interval);
+// }
+
+// *********Chapter 49-52*******     Assignment 9 *****   Task 1
+var fName = 0;
+var lName = 0;
+var email = 0;
+var passWord = 0;
+var conpass;
+function info() {
+  fName = document.getElementById("firstName");
+  console.log(fName.value);
+  alert("First Name:" + firstName.value);
+  fName.value = "";
+  lName = document.getElementById("lastName");
+  console.log(lName.value);
+  alert("Last Name:" + lName.value);
+  lName.value = "";
+  email = document.getElementById("email");
+  console.log(email.value);
+  alert("Email Address:" + email.value);
+  email.value = "";
+  passWord = document.getElementById("password");
+  console.log(passWord.value);
+  alert("Password:" + passWord.value);
+  passWord.value = "";
+  conpass = document.getElementById("confpassword");
+  console.log(conpass.value);
+  conpass.value = "";
+}
+
+// *********Chapter 49-52*******     Assignment 9 *****   Task 2
+// *********Chapter 49-52*******     Assignment 9 *****   Task 3

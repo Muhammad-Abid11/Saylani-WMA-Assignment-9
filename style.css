@@ -1,6 +1,29 @@
-div {
+div#mobile {
   display: flex;
 }
 img {
   cursor: pointer;
+}
+h1,
+h2#counter {
+  text-align: center;
+}
+body {
+  background-color: cornflowerblue;
+}
+button#form {
+  background-color: royalblue;
+  border: 0px;
+  text-align: left;
+}
+span#form {
+  color: royalblue;
+}
+div#form {
+  width: 30%;
+  height: 300px;
+  margin: 0px auto;
+  background-color: whitesmoke;
+  color: black;
+  text-align: justify;
 }
