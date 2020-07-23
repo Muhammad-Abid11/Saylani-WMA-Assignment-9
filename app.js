@@ -302,3 +302,5 @@
 // //   currentSize = parseFloat(style);
 // //   txt.style.fontSize = currentSize + 1 + "px";
 // // }
+
+// *******Chapter 58-67*******     Assignment 9 *****   Task 1
