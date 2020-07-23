@@ -235,32 +235,70 @@
 // }
 
 // *********Chapter 49-52*******     Assignment 9 *****   Task 1
-var fName = 0;
-var lName = 0;
-var email = 0;
-var passWord = 0;
-var conpass;
-function info() {
-  fName = document.getElementById("firstName");
-  console.log(fName.value);
-  alert("First Name:" + firstName.value);
-  fName.value = "";
-  lName = document.getElementById("lastName");
-  console.log(lName.value);
-  alert("Last Name:" + lName.value);
-  lName.value = "";
-  email = document.getElementById("email");
-  console.log(email.value);
-  alert("Email Address:" + email.value);
-  email.value = "";
-  passWord = document.getElementById("password");
-  console.log(passWord.value);
-  alert("Password:" + passWord.value);
-  passWord.value = "";
-  conpass = document.getElementById("confpassword");
-  console.log(conpass.value);
-  conpass.value = "";
-}
+
+// var fName = 0;
+// var lName = 0;
+// var email = 0;
+// var passWord = 0;
+// var conpass;
+// function info() {
+//   fName = document.getElementById("firstName");
+//   console.log(fName.value);
+//   alert("First Name:" + firstName.value);
+//   fName.value = "";
+//   lName = document.getElementById("lastName");
+//   console.log(lName.value);
+//   alert("Last Name:" + lName.value);
+//   lName.value = "";
+//   email = document.getElementById("email");
+//   console.log(email.value);
+//   alert("Email Address:" + email.value);
+//   email.value = "";
+//   passWord = document.getElementById("password");
+//   console.log(passWord.value);
+//   alert("Password:" + passWord.value);
+//   passWord.value = "";
+//   conpass = document.getElementById("confpassword");
+//   console.log(conpass.value);
+//   conpass.value = "";
+// }
 
 // *********Chapter 49-52*******     Assignment 9 *****   Task 2
+
+//                 air as water vapor, in rivers and lakes, in icecaps and glaciers, in the ground as soil moisture and in
+// aquifers, and
+// even in you and your dog.
+
+// Water is never sitting still.Thanks to the water cycle, our planet's water supply is constantly moving
+// from one place
+// to another and from one form to another.Things would get pretty stale without the water cycle!
+
+// function readMore() {
+//   var paraGraph = document.getElementById("para");
+//   paraGraph.innerHTML =
+//     "<b>All Earth's water, liquid fresh water, and water in lakes and rivers</b> All water on Earth in a sphere, placed over a 'dry' globe The Earth is a watery place.But just how much water exists on, in, and above our planet ? About 71 percent of the Earth's surface is water-covered, and the oceans hold about 96.5 percent of all Earths water.Water also exists in the air as water vapor in rivers and lakes, in icecaps and glaciers, in the ground as soil moisture and in aquifers, and even in you and your dog. Water is never sitting still.Thanks to the water cycle, our planet's water supply is constantly moving from one place to another and from one form to another.Things would get pretty stale without the water cycle!";
+// }
+
 // *********Chapter 49-52*******     Assignment 9 *****   Task 3
+// *********Chapter 53-58*******     Assignment 9 *****   Task 1
+
+// function imageShow(e) {
+//   console.log(e.src);
+//   var modalImage = document.getElementById("modalImage");
+//   modalImage.src = e.src;
+// }
+
+// *********Chapter 53-58*******     Assignment 9 *****   Task 2
+
+// function increaseFontSizeBy10px() {
+//   txt = document.getElementById("a"); //get text
+//   style = window.getComputedStyle(txt, null).getPropertyValue("font-size"); //get font size
+//   currentSize = parseFloat(style); //get font size change into float
+//   txt.style.fontSize = currentSize + 10 + "px"; //cancodinate
+// }
+// // function increaseFontSizeBy1px() {
+// //   txt = document.getElementById("b");
+// //   style = window.getComputedStyle(txt, null).getPropertyValue("font-size");
+// //   currentSize = parseFloat(style);
+// //   txt.style.fontSize = currentSize + 1 + "px";
+// // }
