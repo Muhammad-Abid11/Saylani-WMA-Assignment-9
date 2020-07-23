@@ -280,10 +280,11 @@
 // }
 
 // *********Chapter 49-52*******     Assignment 9 *****   Task 3
+
 // *********Chapter 53-58*******     Assignment 9 *****   Task 1
 
 // function imageShow(e) {
-//   console.log(e.src);
+////   console.log(e.src);
 //   var modalImage = document.getElementById("modalImage");
 //   modalImage.src = e.src;
 // }
