@@ -1866,3 +1866,35 @@
 // // }
 
 // *******Chapter 58-67*******     Assignment 9 *****   Task 1
+
+// var a = document.getElementById("main-content").childNodes;
+// console.log(a);
+// var b = document.getElementsByClassName("render");
+// console.log(b);
+// var c = document.getElementById("first-name");
+// c.value = "Muhammad";
+// var d = document.getElementById("last-name");
+// d.value = "Abid";
+// var e = document.getElementById("email");
+// e.value = "abidkhan11845@gmail.com";
+
+// *******Chapter 58-67*******     Assignment 9 *****   Task 2
+
+// var a = document.getElementById("form-content").nodeType;
+// console.log("Form-Content shows " + a + " means some Code");
+// var b = document.getElementById("lastName").nodeType;
+// console.log("Last-Name shows " + b + " means some Code");
+// var c = document.getElementById("lastName").childNodes[0].nodeType;
+// console.log("Last-Name Childs shows " + c + " means Junk Code");
+// var d = document.getElementById("main-content").firstChild;
+// console.log(d);
+// var e = document.getElementById("main-content").lastChild;
+// console.log(e);
+// var f = document.getElementById("lastName").nextSibling;
+// console.log(f);
+// var g = document.getElementById("lastName").previousSibling;
+// console.log(g);
+// var h = document.getElementById("email").parentNode;
+// console.log(h);
+// var i = document.getElementById("email").parentNode.nodeType;
+// console.log(i);
